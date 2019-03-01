@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ChatKeyboard' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  pod 'LWOCKit'
+  
+  pod 'Masonry', '~> 1.1.0'
+  pod 'ReactiveCocoa', '~> 2.5'
+
+  # Pods for ChatKeyboard
+
+  target 'ChatKeyboardTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ChatKeyboardUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.0'
+        end
+    end
+end
+

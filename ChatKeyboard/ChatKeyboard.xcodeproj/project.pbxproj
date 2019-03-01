@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5561F23D591F624AB06B10EE /* libPods-ChatKeyboardUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CB3DEF66D65AB879DDC73A /* libPods-ChatKeyboardUITests.a */; };
+		7D08D3EE8E50EA1DDBEF6CAF /* libPods-ChatKeyboardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 137DEDC369CF780563519CE5 /* libPods-ChatKeyboardTests.a */; };
+		9D4A45232ABE992E5050B8FA /* libPods-ChatKeyboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E09CC1073BFFD313AB1A51 /* libPods-ChatKeyboard.a */; };
+		E432625E222537EC003465A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E432625D222537EC003465A3 /* AppDelegate.m */; };
+		E4326261222537EC003465A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4326260222537EC003465A3 /* ViewController.m */; };
+		E4326264222537EC003465A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4326262222537EC003465A3 /* Main.storyboard */; };
+		E4326266222537EC003465A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4326265222537EC003465A3 /* Assets.xcassets */; };
+		E4326269222537EC003465A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4326267222537EC003465A3 /* LaunchScreen.storyboard */; };
+		E432626C222537EC003465A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E432626B222537EC003465A3 /* main.m */; };
+		E4326276222537ED003465A3 /* ChatKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4326275222537ED003465A3 /* ChatKeyboardTests.m */; };
+		E4326281222537ED003465A3 /* ChatKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4326280222537ED003465A3 /* ChatKeyboardUITests.m */; };
+		E4326290222538A6003465A3 /* VCChat.m in Sources */ = {isa = PBXBuildFile; fileRef = E432628F222538A6003465A3 /* VCChat.m */; };
+		E4326294222539F5003465A3 /* YYChatInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4326293222539F5003465A3 /* YYChatInputView.m */; };
+		E475B9D2222919FD008A7AF3 /* YYRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E475B9CE222919FD008A7AF3 /* YYRecordButton.m */; };
+		E475B9D3222919FD008A7AF3 /* YYAvPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E475B9D1222919FD008A7AF3 /* YYAvPlayer.m */; };
+		E475B9D622291AF4008A7AF3 /* LVRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E475B9D522291AF4008A7AF3 /* LVRecordTool.m */; };
+		E4A9FBC822254C35004B04A9 /* YYChatFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A9FBC722254C35004B04A9 /* YYChatFaceView.m */; };
+		E4A9FBCB22256B86004B04A9 /* YYChatFuncView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A9FBCA22256B86004B04A9 /* YYChatFuncView.m */; };
+		E4A9FBD522257432004B04A9 /* YYEmojiFaceCollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A9FBCD22257432004B04A9 /* YYEmojiFaceCollCell.m */; };
+		E4A9FBD622257432004B04A9 /* YYEmojiFaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A9FBCF22257432004B04A9 /* YYEmojiFaceCell.m */; };
+		E4A9FBD722257432004B04A9 /* YYEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A9FBD222257432004B04A9 /* YYEmoji.m */; };
+		E4A9FBD822257432004B04A9 /* EmojisList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4A9FBD322257432004B04A9 /* EmojisList.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4326272222537ED003465A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4326251222537EC003465A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4326258222537EC003465A3;
+			remoteInfo = ChatKeyboard;
+		};
+		E432627D222537ED003465A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4326251222537EC003465A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4326258222537EC003465A3;
+			remoteInfo = ChatKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B05C02C767B60BC598768CE /* Pods-ChatKeyboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKeyboardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKeyboardUITests/Pods-ChatKeyboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		137DEDC369CF780563519CE5 /* libPods-ChatKeyboardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatKeyboardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDADD203F69F07029A2E17D /* Pods-ChatKeyboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKeyboardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKeyboardTests/Pods-ChatKeyboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42BEADAD71961CE40EB2E3FB /* Pods-ChatKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKeyboard/Pods-ChatKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		509D502E4CD36374695ED7C2 /* Pods-ChatKeyboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKeyboardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKeyboardUITests/Pods-ChatKeyboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51E09CC1073BFFD313AB1A51 /* libPods-ChatKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatKeyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BACF71A49F6B2256E8B8085 /* Pods-ChatKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKeyboard/Pods-ChatKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		6A569EB3049D44734F528AF3 /* Pods-ChatKeyboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKeyboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKeyboardTests/Pods-ChatKeyboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6CB3DEF66D65AB879DDC73A /* libPods-ChatKeyboardUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatKeyboardUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4326259222537EC003465A3 /* ChatKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E432625C222537EC003465A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E432625D222537EC003465A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E432625F222537EC003465A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4326260222537EC003465A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4326263222537EC003465A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4326265222537EC003465A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4326268222537EC003465A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E432626A222537EC003465A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E432626B222537EC003465A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4326271222537ED003465A3 /* ChatKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4326275222537ED003465A3 /* ChatKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatKeyboardTests.m; sourceTree = "<group>"; };
+		E4326277222537ED003465A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E432627C222537ED003465A3 /* ChatKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4326280222537ED003465A3 /* ChatKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatKeyboardUITests.m; sourceTree = "<group>"; };
+		E4326282222537ED003465A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E432628E222538A6003465A3 /* VCChat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCChat.h; sourceTree = "<group>"; };
+		E432628F222538A6003465A3 /* VCChat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCChat.m; sourceTree = "<group>"; };
+		E4326292222539F5003465A3 /* YYChatInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYChatInputView.h; sourceTree = "<group>"; };
+		E4326293222539F5003465A3 /* YYChatInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYChatInputView.m; sourceTree = "<group>"; };
+		E475B9CE222919FD008A7AF3 /* YYRecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYRecordButton.m; sourceTree = "<group>"; };
+		E475B9CF222919FD008A7AF3 /* YYRecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYRecordButton.h; sourceTree = "<group>"; };
+		E475B9D0222919FD008A7AF3 /* YYAvPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAvPlayer.h; sourceTree = "<group>"; };
+		E475B9D1222919FD008A7AF3 /* YYAvPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAvPlayer.m; sourceTree = "<group>"; };
+		E475B9D422291AF4008A7AF3 /* LVRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVRecordTool.h; sourceTree = "<group>"; };
+		E475B9D522291AF4008A7AF3 /* LVRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVRecordTool.m; sourceTree = "<group>"; };
+		E4A9FBC522253DE9004B04A9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E4A9FBC622254C35004B04A9 /* YYChatFaceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYChatFaceView.h; sourceTree = "<group>"; };
+		E4A9FBC722254C35004B04A9 /* YYChatFaceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYChatFaceView.m; sourceTree = "<group>"; };
+		E4A9FBC922256B86004B04A9 /* YYChatFuncView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYChatFuncView.h; sourceTree = "<group>"; };
+		E4A9FBCA22256B86004B04A9 /* YYChatFuncView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYChatFuncView.m; sourceTree = "<group>"; };
+		E4A9FBCD22257432004B04A9 /* YYEmojiFaceCollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYEmojiFaceCollCell.m; sourceTree = "<group>"; };
+		E4A9FBCE22257432004B04A9 /* YYEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYEmoji.h; sourceTree = "<group>"; };
+		E4A9FBCF22257432004B04A9 /* YYEmojiFaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYEmojiFaceCell.m; sourceTree = "<group>"; };
+		E4A9FBD022257432004B04A9 /* YYEmojiConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYEmojiConfig.h; sourceTree = "<group>"; };
+		E4A9FBD122257432004B04A9 /* YYEmojiFaceCollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYEmojiFaceCollCell.h; sourceTree = "<group>"; };
+		E4A9FBD222257432004B04A9 /* YYEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYEmoji.m; sourceTree = "<group>"; };
+		E4A9FBD322257432004B04A9 /* EmojisList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmojisList.plist; sourceTree = "<group>"; };
+		E4A9FBD422257432004B04A9 /* YYEmojiFaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYEmojiFaceCell.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4326256222537EC003465A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4A45232ABE992E5050B8FA /* libPods-ChatKeyboard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E432626E222537ED003465A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D08D3EE8E50EA1DDBEF6CAF /* libPods-ChatKeyboardTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4326279222537ED003465A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5561F23D591F624AB06B10EE /* libPods-ChatKeyboardUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D05661E5CA904538E868310 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BACF71A49F6B2256E8B8085 /* Pods-ChatKeyboard.debug.xcconfig */,
+				42BEADAD71961CE40EB2E3FB /* Pods-ChatKeyboard.release.xcconfig */,
+				1DDADD203F69F07029A2E17D /* Pods-ChatKeyboardTests.debug.xcconfig */,
+				6A569EB3049D44734F528AF3 /* Pods-ChatKeyboardTests.release.xcconfig */,
+				509D502E4CD36374695ED7C2 /* Pods-ChatKeyboardUITests.debug.xcconfig */,
+				0B05C02C767B60BC598768CE /* Pods-ChatKeyboardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1825E8C792C457EDE91078F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51E09CC1073BFFD313AB1A51 /* libPods-ChatKeyboard.a */,
+				137DEDC369CF780563519CE5 /* libPods-ChatKeyboardTests.a */,
+				B6CB3DEF66D65AB879DDC73A /* libPods-ChatKeyboardUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4326250222537EC003465A3 = {
+			isa = PBXGroup;
+			children = (
+				E432625B222537EC003465A3 /* ChatKeyboard */,
+				E4326274222537ED003465A3 /* ChatKeyboardTests */,
+				E432627F222537ED003465A3 /* ChatKeyboardUITests */,
+				E432625A222537EC003465A3 /* Products */,
+				1D05661E5CA904538E868310 /* Pods */,
+				B1825E8C792C457EDE91078F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E432625A222537EC003465A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4326259222537EC003465A3 /* ChatKeyboard.app */,
+				E4326271222537ED003465A3 /* ChatKeyboardTests.xctest */,
+				E432627C222537ED003465A3 /* ChatKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E432625B222537EC003465A3 /* ChatKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E4326291222538AA003465A3 /* InputBar */,
+				E432625C222537EC003465A3 /* AppDelegate.h */,
+				E432625D222537EC003465A3 /* AppDelegate.m */,
+				E432625F222537EC003465A3 /* ViewController.h */,
+				E4326260222537EC003465A3 /* ViewController.m */,
+				E432628E222538A6003465A3 /* VCChat.h */,
+				E432628F222538A6003465A3 /* VCChat.m */,
+				E4326262222537EC003465A3 /* Main.storyboard */,
+				E4326265222537EC003465A3 /* Assets.xcassets */,
+				E4326267222537EC003465A3 /* LaunchScreen.storyboard */,
+				E432626A222537EC003465A3 /* Info.plist */,
+				E432626B222537EC003465A3 /* main.m */,
+				E4A9FBC522253DE9004B04A9 /* PrefixHeader.pch */,
+			);
+			path = ChatKeyboard;
+			sourceTree = "<group>";
+		};
+		E4326274222537ED003465A3 /* ChatKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4326275222537ED003465A3 /* ChatKeyboardTests.m */,
+				E4326277222537ED003465A3 /* Info.plist */,
+			);
+			path = ChatKeyboardTests;
+			sourceTree = "<group>";
+		};
+		E432627F222537ED003465A3 /* ChatKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4326280222537ED003465A3 /* ChatKeyboardUITests.m */,
+				E4326282222537ED003465A3 /* Info.plist */,
+			);
+			path = ChatKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		E4326291222538AA003465A3 /* InputBar */ = {
+			isa = PBXGroup;
+			children = (
+				E4A9FBCC22257432004B04A9 /* Emoji */,
+				E4326292222539F5003465A3 /* YYChatInputView.h */,
+				E4326293222539F5003465A3 /* YYChatInputView.m */,
+				E4A9FBC622254C35004B04A9 /* YYChatFaceView.h */,
+				E4A9FBC722254C35004B04A9 /* YYChatFaceView.m */,
+				E4A9FBC922256B86004B04A9 /* YYChatFuncView.h */,
+				E4A9FBCA22256B86004B04A9 /* YYChatFuncView.m */,
+				E475B9D0222919FD008A7AF3 /* YYAvPlayer.h */,
+				E475B9D1222919FD008A7AF3 /* YYAvPlayer.m */,
+				E475B9CF222919FD008A7AF3 /* YYRecordButton.h */,
+				E475B9CE222919FD008A7AF3 /* YYRecordButton.m */,
+				E475B9D422291AF4008A7AF3 /* LVRecordTool.h */,
+				E475B9D522291AF4008A7AF3 /* LVRecordTool.m */,
+			);
+			path = InputBar;
+			sourceTree = "<group>";
+		};
+		E4A9FBCC22257432004B04A9 /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				E4A9FBD322257432004B04A9 /* EmojisList.plist */,
+				E4A9FBCE22257432004B04A9 /* YYEmoji.h */,
+				E4A9FBD222257432004B04A9 /* YYEmoji.m */,
+				E4A9FBD022257432004B04A9 /* YYEmojiConfig.h */,
+				E4A9FBD422257432004B04A9 /* YYEmojiFaceCell.h */,
+				E4A9FBCF22257432004B04A9 /* YYEmojiFaceCell.m */,
+				E4A9FBD122257432004B04A9 /* YYEmojiFaceCollCell.h */,
+				E4A9FBCD22257432004B04A9 /* YYEmojiFaceCollCell.m */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4326258222537EC003465A3 /* ChatKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4326285222537ED003465A3 /* Build configuration list for PBXNativeTarget "ChatKeyboard" */;
+			buildPhases = (
+				C9C528578D3D0A42D56BC77A /* [CP] Check Pods Manifest.lock */,
+				E4326255222537EC003465A3 /* Sources */,
+				E4326256222537EC003465A3 /* Frameworks */,
+				E4326257222537EC003465A3 /* Resources */,
+				F6FAC81841377B022921C681 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatKeyboard;
+			productName = ChatKeyboard;
+			productReference = E4326259222537EC003465A3 /* ChatKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4326270222537ED003465A3 /* ChatKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4326288222537ED003465A3 /* Build configuration list for PBXNativeTarget "ChatKeyboardTests" */;
+			buildPhases = (
+				02FB75A42278B9C818C8C4D8 /* [CP] Check Pods Manifest.lock */,
+				E432626D222537ED003465A3 /* Sources */,
+				E432626E222537ED003465A3 /* Frameworks */,
+				E432626F222537ED003465A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4326273222537ED003465A3 /* PBXTargetDependency */,
+			);
+			name = ChatKeyboardTests;
+			productName = ChatKeyboardTests;
+			productReference = E4326271222537ED003465A3 /* ChatKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E432627B222537ED003465A3 /* ChatKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E432628B222537ED003465A3 /* Build configuration list for PBXNativeTarget "ChatKeyboardUITests" */;
+			buildPhases = (
+				7A9AD63112ED48D092A48E3C /* [CP] Check Pods Manifest.lock */,
+				E4326278222537ED003465A3 /* Sources */,
+				E4326279222537ED003465A3 /* Frameworks */,
+				E432627A222537ED003465A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E432627E222537ED003465A3 /* PBXTargetDependency */,
+			);
+			name = ChatKeyboardUITests;
+			productName = ChatKeyboardUITests;
+			productReference = E432627C222537ED003465A3 /* ChatKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4326251222537EC003465A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yons;
+				TargetAttributes = {
+					E4326258222537EC003465A3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E4326270222537ED003465A3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E4326258222537EC003465A3;
+					};
+					E432627B222537ED003465A3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E4326258222537EC003465A3;
+					};
+				};
+			};
+			buildConfigurationList = E4326254222537EC003465A3 /* Build configuration list for PBXProject "ChatKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4326250222537EC003465A3;
+			productRefGroup = E432625A222537EC003465A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4326258222537EC003465A3 /* ChatKeyboard */,
+				E4326270222537ED003465A3 /* ChatKeyboardTests */,
+				E432627B222537ED003465A3 /* ChatKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4326257222537EC003465A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4326269222537EC003465A3 /* LaunchScreen.storyboard in Resources */,
+				E4A9FBD822257432004B04A9 /* EmojisList.plist in Resources */,
+				E4326266222537EC003465A3 /* Assets.xcassets in Resources */,
+				E4326264222537EC003465A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E432626F222537ED003465A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E432627A222537ED003465A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02FB75A42278B9C818C8C4D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatKeyboardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A9AD63112ED48D092A48E3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatKeyboardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C528578D3D0A42D56BC77A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatKeyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6FAC81841377B022921C681 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChatKeyboard/Pods-ChatKeyboard-resources.sh",
+				"${PODS_ROOT}/LWOCKit/Sources/Category/MBProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MBProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatKeyboard/Pods-ChatKeyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4326255222537EC003465A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A9FBCB22256B86004B04A9 /* YYChatFuncView.m in Sources */,
+				E4326290222538A6003465A3 /* VCChat.m in Sources */,
+				E4326261222537EC003465A3 /* ViewController.m in Sources */,
+				E432626C222537EC003465A3 /* main.m in Sources */,
+				E475B9D2222919FD008A7AF3 /* YYRecordButton.m in Sources */,
+				E475B9D3222919FD008A7AF3 /* YYAvPlayer.m in Sources */,
+				E4A9FBC822254C35004B04A9 /* YYChatFaceView.m in Sources */,
+				E4326294222539F5003465A3 /* YYChatInputView.m in Sources */,
+				E4A9FBD722257432004B04A9 /* YYEmoji.m in Sources */,
+				E432625E222537EC003465A3 /* AppDelegate.m in Sources */,
+				E475B9D622291AF4008A7AF3 /* LVRecordTool.m in Sources */,
+				E4A9FBD522257432004B04A9 /* YYEmojiFaceCollCell.m in Sources */,
+				E4A9FBD622257432004B04A9 /* YYEmojiFaceCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E432626D222537ED003465A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4326276222537ED003465A3 /* ChatKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4326278222537ED003465A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4326281222537ED003465A3 /* ChatKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4326273222537ED003465A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4326258222537EC003465A3 /* ChatKeyboard */;
+			targetProxy = E4326272222537ED003465A3 /* PBXContainerItemProxy */;
+		};
+		E432627E222537ED003465A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4326258222537EC003465A3 /* ChatKeyboard */;
+			targetProxy = E432627D222537ED003465A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4326262222537EC003465A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4326263222537EC003465A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4326267222537EC003465A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4326268222537EC003465A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4326283222537ED003465A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4326284222537ED003465A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4326286222537ED003465A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BACF71A49F6B2256E8B8085 /* Pods-ChatKeyboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 682G272KAQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChatKeyboard/PrefixHeader.pch";
+				INFOPLIST_FILE = ChatKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sean.ChatKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4326287222537ED003465A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BEADAD71961CE40EB2E3FB /* Pods-ChatKeyboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 682G272KAQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChatKeyboard/PrefixHeader.pch";
+				INFOPLIST_FILE = ChatKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sean.ChatKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4326289222537ED003465A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DDADD203F69F07029A2E17D /* Pods-ChatKeyboardTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 682G272KAQ;
+				INFOPLIST_FILE = ChatKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sean.ChatKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatKeyboard.app/ChatKeyboard";
+			};
+			name = Debug;
+		};
+		E432628A222537ED003465A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A569EB3049D44734F528AF3 /* Pods-ChatKeyboardTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 682G272KAQ;
+				INFOPLIST_FILE = ChatKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sean.ChatKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatKeyboard.app/ChatKeyboard";
+			};
+			name = Release;
+		};
+		E432628C222537ED003465A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509D502E4CD36374695ED7C2 /* Pods-ChatKeyboardUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 682G272KAQ;
+				INFOPLIST_FILE = ChatKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sean.ChatKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatKeyboard;
+			};
+			name = Debug;
+		};
+		E432628D222537ED003465A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B05C02C767B60BC598768CE /* Pods-ChatKeyboardUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 682G272KAQ;
+				INFOPLIST_FILE = ChatKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sean.ChatKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4326254222537EC003465A3 /* Build configuration list for PBXProject "ChatKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4326283222537ED003465A3 /* Debug */,
+				E4326284222537ED003465A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4326285222537ED003465A3 /* Build configuration list for PBXNativeTarget "ChatKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4326286222537ED003465A3 /* Debug */,
+				E4326287222537ED003465A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4326288222537ED003465A3 /* Build configuration list for PBXNativeTarget "ChatKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4326289222537ED003465A3 /* Debug */,
+				E432628A222537ED003465A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E432628B222537ED003465A3 /* Build configuration list for PBXNativeTarget "ChatKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E432628C222537ED003465A3 /* Debug */,
+				E432628D222537ED003465A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4326251222537EC003465A3 /* Project object */;
+}
